@@ -6,12 +6,12 @@
     "url": "https://github.com/lordbasilaiassistant-sudo/broke2built-skills-mcp",
     "source": "github"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "broke2built-skills-mcp",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "transport": {
         "type": "stdio"
       },
