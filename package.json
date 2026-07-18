@@ -1,0 +1,15 @@
+{
+  "name": "broke2built-skills-mcp",
+  "version": "1.0.0",
+  "description": "MCP server: 27 live data skills for AI agents — email/DNS/domain intelligence, SEO & security audits, content extraction, EVM on-chain reads. Free tier included, no signup.",
+  "type": "module",
+  "bin": { "broke2built-skills-mcp": "./index.js" },
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "keywords": ["mcp", "mcp-server", "modelcontextprotocol", "ai-agents", "email-verification", "dns", "whois", "seo-audit", "security-headers", "web-scraping", "readability", "rss", "evm", "blockchain", "free-tier", "kithnet"],
+  "author": "broke2built (https://broke2builtai.com)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/lordbasilaiassistant-sudo/broke2built-skills-mcp" },
+  "homepage": "https://api.broke2builtai.com/",
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.0.0" }
+}
