@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.lordbasilaiassistant-sudo/broke2built-skills-mcp",
+  "description": "29 live data skills for agents: email/DNS/domain intel, web audits, EVM reads. Free tier.",
+  "repository": {
+    "url": "https://github.com/lordbasilaiassistant-sudo/broke2built-skills-mcp",
+    "source": "github"
+  },
+  "version": "1.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "broke2built-skills-mcp",
+      "version": "1.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "ALLY_KEY",
+          "description": "Optional broke2built ally key for 100 free calls/day (get free: POST https://api.broke2builtai.com/ally/register). Without it the server uses the keyless free taste tier (20/day/IP).",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}
