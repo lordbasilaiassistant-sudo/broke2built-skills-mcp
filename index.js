@@ -40,6 +40,8 @@ const SKILLS = [
   ['multichain-balance', 'address', 'Native balance for one address across 5 EVM chains in one call.'],
   ['tx-status', 'hash', 'EVM transaction status: success/failed, block, confirmations, from/to, gas used. ?chain=…'],
   ['gas-tracker', 'chain', 'Live gas price in gwei for EVM chains (eth|base|arbitrum|optimism|polygon|all).'],
+  ['source-verify', 'url', 'Verify a cited source URL: live status + final URL + title + whether the domain is an OFFICIAL publisher (curated EU/BE/NL legal-source list + official-TLD heuristics).'],
+  ['vies-check', 'vat', 'Verify an EU VAT number against the official EC VIES registry: valid?, registered name + address. e.g. vat=BE0403170701.'],
 ];
 
 const server = new Server({ name: 'broke2built-skills', version: '1.0.0' }, { capabilities: { tools: {} } });

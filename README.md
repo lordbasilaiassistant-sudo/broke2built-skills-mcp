@@ -1,6 +1,6 @@
 # broke2built-skills-mcp
 
-**27 live data skills for AI agents, as an MCP server.** Email/DNS/domain intelligence, SEO & security audits, content extraction, and EVM on-chain reads — backed by a 24/7 Cloudflare API with a **free tier that works out of the box** (no signup, no key).
+**29 live data skills for AI agents, as an MCP server.** Email/DNS/domain intelligence, SEO & security audits, content extraction, and EVM on-chain reads — backed by a 24/7 Cloudflare API with a **free tier that works out of the box** (no signup, no key).
 
 ```
 verify_email · email_auth · domain_intel · dns_lookup · whois_rdap · ip_geo
@@ -8,6 +8,7 @@ seo_audit · security_headers · broken_links · redirect_trace · url_metadata 
 sitemap_extract · robots_analyze · structured_data · readability · rss_to_json · html_table
 brand_assets · lang_hreflang · json_repair · text_entities
 evm_address_intel · token_metadata · multichain_balance · tx_status · gas_tracker
+source_verify · vies_check
 ```
 
 ## Quick start
